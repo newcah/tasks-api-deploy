@@ -1,0 +1,21 @@
+###
+
+GET http://localhost:5000/api/tasks
+
+###
+
+POST http://localhost:5000/api/tasks
+Content-Type: application/json
+
+{
+    "titulo": "Task 3",
+    "contenido": "trabajo en angular"
+}
+
+###
+PUT http://localhost:5000/api/tasks/659037f29b656142e3cd49b0
+Content-Type: application/json
+
+{
+    "titulo": "Crear un sitio web con wix"
+}
